@@ -1,0 +1,74 @@
+# Visual Studio specific files
+.vs/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Xcode specific files
+*.xcodeproj
+*.xcworkspace
+
+# Intermediate build files
+Intermediate/
+Plugins/*/Intermediate/
+DerivedDataCache/
+Saved/
+
+# Binary files and build outputs
+Binaries/
+Build/
+
+# Ignore the following file types
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.lib
+*.a
+*.la
+*.out
+*.obj
+*.o
+*.slo
+*.lo
+*.mod
+*.gch
+*.pch
+*.ipa
+
+# Unreal Engine generated files
+*_BuiltData.uasset
+*.opensdf
+*.sdf
+
+# Precompiled assets
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Configurations
+*.ini
+*.config
+*.log
+
+# Cache files
+DerivedDataCache/
+
+# Whitelist specific PakBlacklist files
+!Build/*/PakBlacklist*.txt
+
+# Ignore editor autosaves and user settings
+Saved/Logs/
+Saved/Autosaves/
+UserSettings.ini
+
+# macOS specific files
+.DS_Store
+
+# Ignore JetBrains project files
+.idea/
+*.iml
+
+# Local configuration files
+*.vsconfig
